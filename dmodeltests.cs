@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace WebAPIClient
 {
-    class Linqtest
+    public class Dmodeltests
     {
+
+        public string s { get; set; }
+        public string r { get; set; } 
 
         private static IEnumerable<string> Ranks()
         {
@@ -31,7 +34,7 @@ namespace WebAPIClient
         {
             var startingDeck = (from s in Suits().LogQuery("Suit Generation")
                                from r in Ranks().LogQuery("Rank Generation")
-                               select new { Suit = s, Rank = r }).LogQuery("Starting Deck")
+                               select new { Suits = s, Rank = r }).LogQuery("Starting Deck")
                                .ToArray();
 
             foreach (var card in startingDeck)

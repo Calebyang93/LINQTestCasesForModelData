@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data;
+using System.Data.Linq;
+using System.Xml.Linq;
 using System.Data.SqlClient;
 
 namespace WebAPIClient

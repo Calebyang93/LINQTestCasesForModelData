@@ -10,7 +10,14 @@ namespace WebAPIClient.models
     {
         public string ToDoItemName { get; set; }
         public int ToDoItemId { get; set; }
-        public int TaskId { get; set; } 
+        public int TaskId { get; set; }
+        public enum taskStatus
+        {
+            NotYetStarted,
+            InProgress,
+            Completed,
+            Archived
+        }
 
         internal static void Add(ToDoItemList toDoItemList)
         {
