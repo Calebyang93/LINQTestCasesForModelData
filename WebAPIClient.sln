@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIClient", "WebAPIClien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckingLinqTDItems", "..\CheckingLinqTDItems\CheckingLinqTDItems.csproj", "{96CE8898-9821-4F7A-AFCB-E5181D5263CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TD.Console2", "..\TD.Console2\TD.Console2.csproj", "{48E654A6-4E61-42C2-8F51-357DC4BA7FAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TD.Console2", "..\TD.Console2\TD.Console2.csproj", "{48E654A6-4E61-42C2-8F51-357DC4BA7FAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TD.Model", "..\TD.Model\TD.Model.csproj", "{842F028B-C7B9-4EE5-8F34-3742551775F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TD.Model", "..\TD.Model\TD.Model.csproj", "{842F028B-C7B9-4EE5-8F34-3742551775F3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDListModel", "..\TDListModel\TDListModel.csproj", "{0792A3CB-845F-4B0B-B506-0AD15BE88673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDListModelConsole", "..\TDListModelConsole\TDListModelConsole.csproj", "{84F64331-85FD-4FC8-BA96-3B1C36D497FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{842F028B-C7B9-4EE5-8F34-3742551775F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{842F028B-C7B9-4EE5-8F34-3742551775F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{842F028B-C7B9-4EE5-8F34-3742551775F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0792A3CB-845F-4B0B-B506-0AD15BE88673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0792A3CB-845F-4B0B-B506-0AD15BE88673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0792A3CB-845F-4B0B-B506-0AD15BE88673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0792A3CB-845F-4B0B-B506-0AD15BE88673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84F64331-85FD-4FC8-BA96-3B1C36D497FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84F64331-85FD-4FC8-BA96-3B1C36D497FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84F64331-85FD-4FC8-BA96-3B1C36D497FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84F64331-85FD-4FC8-BA96-3B1C36D497FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
